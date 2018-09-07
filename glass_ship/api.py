@@ -1,11 +1,11 @@
-
 from flask import request, jsonify, abort
+
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask("glass-ship")
 app.debug = True
 
 
-@app.route("/hello")
+@app.route("/test")
 def main():
     return jsonify({"Message": "Hello!"})

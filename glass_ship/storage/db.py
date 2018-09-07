@@ -18,5 +18,5 @@ def init_db():
     Initializes all imported tables in the specified database
     :return: None
     """
-    import application.models
+    import glass_ship.storage.models
     Base.metadata.create_all(bind=engine)
