@@ -6,12 +6,12 @@ from glass_ship.storage.db import init_db, engine
 from sqlalchemy.orm import sessionmaker
 from glass_ship.storage import models
 
-
 app = Flask("glass-ship")
 app.debug = True
 init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
+
 
 @app.route('/get_ships_names')
 def get_ship_names():
@@ -33,7 +33,7 @@ def store_user():
     user = Seafarer(name=data['name'], sailor_id=data['sailorID'],
                     phone=data['phone'], emergency_contact=data['emergencyContact'])
     if not session.query(Seafarer).filter(Seafarer.name == data['name'],
-                                            Seafarer.sailor_id == data['sailor_id']).first():
+                                            Seafarer.sailor_id == data['sailorID']).first():
         session.add(user)
         session.commit()
     else:
