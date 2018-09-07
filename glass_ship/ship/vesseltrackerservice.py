@@ -1,4 +1,4 @@
-import requests
+from flask import request
 from flask import jsonify
 import ssl
 import flask
@@ -8,7 +8,7 @@ token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lciI6eyJpZCI6IjQ0NCIsIm
 endpoint = "https://ais.spire.com/vessels/"
 
 def get_all_ships():
-    response = requests.get(endpoint, headers={'Authorization': "Bearer {}".format(token)})
+    response = request.get(endpoint, headers={'Authorization': "Bearer {}".format(token)})
 
     with open("vessels.txt", 'w') as outfile:
         outfile.write(response.text)

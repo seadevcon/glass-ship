@@ -1,19 +1,18 @@
-from flask import request, jsonify, abort
-
 from flask import Flask
-from ship import vesseltrackerservice
+from flask import jsonify
+from glass_ship.ship import vesseltrackerservice
+from glass_ship.storage.db import init_db, engine
+from sqlalchemy.orm import sessionmaker
 
 app = Flask("glass-ship")
 app.debug = True
-from glass_ship.storage.db import init_db
 init_db()
+Session = sessionmaker(bind=engine)
+session = Session()
 
-
-@app.route("/test")
-def main():
-    return jsonify({"Message": "Hello!"})
 
 @app.route('/ship', methods=['GET'])
 def get_ship():
     response = vesseltrackerservice.get_ships(ion=50, lat=50, range=1000000000)
-    return response.text, response.status_code
+    return jsonify({"response_txt": response.text})
+
