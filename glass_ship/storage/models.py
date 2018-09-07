@@ -1,7 +1,7 @@
 """  create tables definition """
-
 from sqlalchemy import Column, Integer, String, CHAR, DateTime
 from glass_ship.storage.db import Base
+
 
 class Vessel(Base):
     """
@@ -45,6 +45,7 @@ class Vessel(Base):
         self.width = width
         self.person_capacity = person_capacity
 
+
 class Seafarer(Base):
     """ 
     User Login object
@@ -63,6 +64,7 @@ class Seafarer(Base):
         self.phone = phone
         self.emergency_contact = emergency_contact
 
+
 class Distress(Base):
     """
     User Distress object
@@ -80,6 +82,7 @@ class Distress(Base):
         self.user_name = user_name
         self.ship_name = ship_name
         self.distress_type = distress_type
+
 
 class Report(Base):
     """
