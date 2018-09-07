@@ -9,10 +9,11 @@ app.debug = True
 init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
-vesseltrackerservice.store_vessels_in_database(session)
+
 
 @app.route('/ship', methods=['GET'])
 def get_ship():
     response = vesseltrackerservice.get_ships(ion=50, lat=50, range=1000000000)
+    vesseltrackerservice.store_vessels_in_database(session)
     return jsonify({"response_txt": response.text})
 
