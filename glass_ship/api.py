@@ -21,3 +21,7 @@ def get_ship_names():
 
     return jsonify({"name": vessel_list}), 200
 
+@app.route('/insert_ships', methods=['GET'])
+def insert_ships():
+    vesseltrackerservice.store_vessels_in_database(session)
+    return jsonify({"message": "I inserted all the ships, if you refresh this I will insert them again.. and again.. so don't do this"})
