@@ -1,5 +1,7 @@
 """  create connection to postgres, create session interface """
 # engine = create_engine('postgresql://localhost/DATABASE')
+# run this first in command line in psql 
+# create database glassship;
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
@@ -18,5 +20,5 @@ def init_db():
     Initializes all imported tables in the specified database
     :return: None
     """
-    import application.models
+    import glass_ship.storage.models
     Base.metadata.create_all(bind=engine)

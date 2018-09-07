@@ -1,12 +1,15 @@
 from flask import request, jsonify, abort
+
 from flask import Flask
 from ship import vesseltrackerservice
 
-app = Flask(__name__)
+app = Flask("glass-ship")
 app.debug = True
+from glass_ship.storage.db import init_db
+init_db()
 
 
-@app.route("/hello")
+@app.route("/test")
 def main():
     return jsonify({"Message": "Hello!"})
 
