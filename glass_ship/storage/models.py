@@ -1,7 +1,7 @@
 """  create tables definition """
 
-from sqlalchemy import Column, Integer, String,
-from application.databases import Base
+from sqlalchemy import Column, Integer, String, CHAR
+from glass_ship.storage.db import Base
 
 class Vessel(Base):
     """
@@ -27,7 +27,7 @@ class Vessel(Base):
     mmsi = Column(String(120))
     imo = Column(Integer)
     ship_type = Column(String(120))
-    ship_class = Column(Char)
+    ship_class = Column(CHAR)
     flag = (String(10))
     length = (Integer)
     width = (Integer)
