@@ -1,5 +1,5 @@
-from flask import Flask
-from flask import jsonify, request
+from flask_cors import CORS, cross_origin
+from flask import Flask, jsonify, request
 from glass_ship.ship import vesseltrackerservice
 from glass_ship.storage.models import Seafarer, Distress, Report
 from glass_ship.storage.db import init_db, engine
@@ -9,21 +9,28 @@ from glass_ship.helpers import vessel_parsing_helper
 import datetime
 
 app = Flask("glass-ship")
+CORS(app)
 app.debug = True
 init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
 
+
+@cross_origin()
 @app.route('/get_ships_names')
 def get_ship_names():
     vessels = vessel_parsing_helper.get_vessel_name_list(models.Vessel.query.all())
     return jsonify({"name": vessels}), 200
 
+
+@cross_origin()
 @app.route('/get_ships_names_by_flag')
 def get_all_ships_by_flag(flag):
     vessels = vessel_parsing_helper.get_vessel_name_list(session.query(models.Vessel).filter(models.Vessel.flag == flag))
     return jsonify({"name": vessels}), 200
 
+
+@cross_origin()
 @app.route('/register', methods=['POST'])
 def store_user():
     """
@@ -42,6 +49,7 @@ def store_user():
     return jsonify({"Message": "Saved user!"}), 200
 
 
+@cross_origin()
 @app.route('/add_distress', methods=['POST'])
 def store_distress():
     """
@@ -56,8 +64,10 @@ def store_distress():
     
     session.add(distress)
     session.commit()    
-    return jsonify({"Message":"Saved distress call"})
+    return jsonify({"Message": "Saved distress call"})
 
+
+@cross_origin()
 @app.route('/rate', methods=['POST'])
 def save_rating():
     """
@@ -78,6 +88,8 @@ def save_rating():
     session.commit()
     return jsonify({"Message": "Added new rating"})
 
+
+@cross_origin()
 @app.route('/insert_ships', methods=['GET'])
 def insert_ships():
     vesseltrackerservice.store_vessels_in_database(session)
