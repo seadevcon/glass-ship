@@ -14,7 +14,6 @@ init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
 
-
 @app.route('/get_ships_names')
 def get_ship_names():
     vessels = vessel_parsing_helper.get_vessel_name_list(models.Vessel.query.all())
