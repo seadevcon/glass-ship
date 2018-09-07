@@ -52,6 +52,7 @@ class Report(Base):
     __tablename__ = 'report'
     id = Column(Integer, primary_key=True, unique=True)
     timestamp = Column(DateTime)
+    device_id = Column(String(120))
     ship_name = Column(String(120))
     food = Column(Integer)
     water = Column(Integer)
@@ -59,8 +60,9 @@ class Report(Base):
     health = Column(Integer)
     wage = Column(Integer)
 
-    def __init__(self, timestamp, ship_name, food, water, bedding, health, wage):
+    def __init__(self, timestamp, device_id, ship_name, food, water, bedding, health, wage):
         self.timestamp = timestamp
+        self.device_id = device_id
         self.ship_name = ship_name
         self.food = food
         self.water = water
