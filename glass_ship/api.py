@@ -17,7 +17,7 @@ def get_ship_names():
     vessels = models.Vessel.query.all()
     vessel_list = []
     for vessel in vessels:
-        vessel_list.add(vessel.name)
+        vessel_list.append(vessel.name)
 
     return jsonify({"name": vessel_list}), 200
 
