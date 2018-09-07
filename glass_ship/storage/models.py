@@ -73,11 +73,13 @@ class Distress(Base):
     timestamp = Column(DateTime)
     user_name = Column(String(120))
     ship_name = Column(String(120))
+    distress_type = Column(String(30))
 
-    def __init__(self, timestamp, user_name, ship_name):
+    def __init__(self, timestamp, user_name, ship_name, distress_type):
         self.timestamp = timestamp
         self.user_name = user_name
         self.ship_name = ship_name
+        self.distress_type = distress_type
 
 class Report(Base):
     """
