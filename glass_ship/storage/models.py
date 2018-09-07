@@ -45,6 +45,40 @@ class Vessel(Base):
         self.width = width
         self.person_capacity = person_capacity
 
+class Seafarer(Base):
+    """ 
+    User Login object
+    """
+    __tablename__ = 'seafarer'
+
+    id = Column(Integer, primary_key=True, unique=True)
+    name = Column(String(120))
+    sailor_id = Column(String(120))
+    phone = Column(String(20))
+    emergency_contact = Column(String(50))
+
+    def __init__(self, name, sailor_id, phone, emergency_contact):
+        self.name = name
+        self.sailor_id = sailor_id
+        self.phone = phone
+        self.emergency_contact = emergency_contact
+
+class Distress(Base):
+    """
+    User Distress object
+    """
+    __tablename__= 'distress'
+
+    id = Column(Integer, primary_key=True, unique=True)
+    timestamp = Column(DateTime)
+    user_name = Column(String(120))
+    ship_name = Column(String(120))
+
+    def __init__(self, timestamp, user_name, ship_name):
+        self.timestamp = timestamp
+        self.user_name = user_name
+        self.ship_name = ship_name
+
 class Report(Base):
     """
     User Report object
@@ -53,6 +87,7 @@ class Report(Base):
     id = Column(Integer, primary_key=True, unique=True)
     timestamp = Column(DateTime)
     device_id = Column(String(120))
+    user_name = Column(String(120))
     ship_name = Column(String(120))
     food = Column(Integer)
     water = Column(Integer)
@@ -60,9 +95,10 @@ class Report(Base):
     health = Column(Integer)
     wage = Column(Integer)
 
-    def __init__(self, timestamp, device_id, ship_name, food, water, bedding, health, wage):
+    def __init__(self, timestamp, device_id, user_name, ship_name, food, water, bedding, health, wage):
         self.timestamp = timestamp
         self.device_id = device_id
+        self.user_name = user_name
         self.ship_name = ship_name
         self.food = food
         self.water = water
