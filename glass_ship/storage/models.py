@@ -1,6 +1,6 @@
 """  create tables definition """
 
-from sqlalchemy import Column, Integer, String, CHAR
+from sqlalchemy import Column, Integer, String, CHAR, DateTime
 from glass_ship.storage.db import Base
 
 class Vessel(Base):
@@ -44,3 +44,26 @@ class Vessel(Base):
         self.length = length
         self.width = width
         self.person_capacity = person_capacity
+
+class Report(Base):
+    """
+    User Report object
+    """
+    __tablename__ = 'report'
+    id = Column(Integer, primary_key=True, unique=True)
+    timestamp = Column(DateTime)
+    ship_name = Column(String(120))
+    food = Column(Integer)
+    water = Column(Integer)
+    bedding = Column(Integer)
+    health = Column(Integer)
+    wage = Column(Integer)
+
+    def __init__(self, timestamp, ship_name, food, water, bedding, health, wage):
+        self.timestamp = timestamp
+        self.ship_name = ship_name
+        self.food = food
+        self.water = water
+        self.bedding = bedding
+        self.health = health
+        self.wage = wage
