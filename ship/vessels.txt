@@ -1,0 +1,4309 @@
+{
+  "paging": {
+    "limit": 100,
+    "total": 304470,
+    "next": "dGltZT0xNTAyNDc5ODY0LjA2NTA2MyxpZD1lYTRkNGM2Ny1jMjcxLTQ2YjEtODBhYi05NDQwM2U0NGI4NDA="
+  },
+  "data": [
+    {
+      "id": "02ba202a-94af-43a7-8b76-fe2092521f18",
+      "name": "RAINBOW NOKO",
+      "mmsi": 431602065,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "JP",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:03:33.659494+00:00",
+      "updated_at": "2018-09-07T14:13:11.743943+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T14:12:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            130.31087,
+            33.61203
+          ]
+        },
+        "heading": 511,
+        "speed": 1.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 6.6
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Cargo and Passenger",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "1cf41f92-6e5b-4757-9550-39b86b79a012",
+      "name": "NEW OROSHIMA",
+      "mmsi": 431601965,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "JP",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:03:33.659494+00:00",
+      "updated_at": "2018-09-07T06:10:15.420737+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T06:09:36+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            130.28197,
+            33.61993
+          ]
+        },
+        "heading": 511,
+        "speed": 20.8,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 322.6
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Passenger Ship",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "359a81ac-f02d-4042-85ad-6e0615047fd4",
+      "name": "KUROSHIO MARU",
+      "mmsi": 431602297,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Tug",
+      "class": "B",
+      "flag": "JP",
+      "length": 30,
+      "width": 9,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:03:33.659494+00:00",
+      "updated_at": "2018-09-03T10:31:16.546474+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-03T10:30:46+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            130.81621,
+            33.92697
+          ]
+        },
+        "heading": 511,
+        "speed": 8.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 147.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "All Other Activities",
+      "individual_classification": "Tramp",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "c3e23c83-5f93-429c-87d9-1999647ba2a2",
+      "name": "SHIN-EI",
+      "mmsi": 432919000,
+      "imo": 9337145,
+      "call_sign": "7JOA",
+      "ship_type": "Cargo",
+      "class": "A",
+      "flag": "JP",
+      "length": 300,
+      "width": 50,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:05:23.622778+00:00",
+      "updated_at": "2018-09-07T19:26:10.708013+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:25:26+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            135.10773,
+            34.21128
+          ]
+        },
+        "heading": 227,
+        "speed": 0,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": 12.3,
+        "maneuver": 0,
+        "course": 301
+      },
+      "most_recent_voyage": {
+        "eta": "2018-08-06T13:30:00+00:00",
+        "destination": "JP NGO OFF"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Cargo Ship",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "At anchor"
+    },
+    {
+      "id": "e4e39839-2347-46ff-ac4c-7139d2c6cd74",
+      "name": "HAPPY - DART",
+      "mmsi": 205271400,
+      "imo": null,
+      "call_sign": "OS2714",
+      "ship_type": "Pleasure Craft",
+      "class": "B",
+      "flag": "BE",
+      "length": 9,
+      "width": 3,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:09:55.780154+00:00",
+      "updated_at": "2018-09-07T19:26:11.310516+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:25:26+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            3.70146,
+            51.51108
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 331.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "7",
+      "lifeboats": null,
+      "person_capacity": 10,
+      "navigational_status": null
+    },
+    {
+      "id": "adb78556-41e1-438a-9ec2-daee7a91ca02",
+      "name": "M 9",
+      "mmsi": 470173000,
+      "imo": null,
+      "call_sign": "A6E2293",
+      "ship_type": null,
+      "class": "A",
+      "flag": "AE",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:11:37.766514+00:00",
+      "updated_at": "2018-09-07T15:06:18.665780+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T06:54:38+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.42936,
+            24.46991
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 48.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Supply Vessel",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "db9cd24a-0912-4c32-bae5-bb37d14afad0",
+      "name": "AST 38",
+      "mmsi": 470265000,
+      "imo": null,
+      "call_sign": "A6E2265",
+      "ship_type": "Passenger",
+      "class": "A",
+      "flag": "AE",
+      "length": 70,
+      "width": 19,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:11:37.766514+00:00",
+      "updated_at": "2018-09-07T19:20:21.679635+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:20:00+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            55.25869,
+            25.27297
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 43.8
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "ADSB MUSAFAH"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Barge",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Moored"
+    },
+    {
+      "id": "57d1f124-05a3-4579-95fa-9eca0ae6a66b",
+      "name": "ERIMAR",
+      "mmsi": 205294410,
+      "imo": null,
+      "call_sign": "OR2944",
+      "ship_type": "Pleasure Craft",
+      "class": "A",
+      "flag": "BE",
+      "length": 15,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:11:55.775612+00:00",
+      "updated_at": "2018-08-31T10:55:15.504153+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-31T10:55:01+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.56592,
+            51.30035
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 0
+      },
+      "most_recent_voyage": {
+        "eta": "2019-07-08T01:00:00+00:00",
+        "destination": "BRECHT"
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "16",
+      "lifeboats": null,
+      "person_capacity": 4,
+      "navigational_status": null
+    },
+    {
+      "id": "d4120bb9-9cf2-462d-bf94-74eab442b021",
+      "name": "KOSY",
+      "mmsi": 205338910,
+      "imo": null,
+      "call_sign": "OR3389",
+      "ship_type": "Pleasure Craft",
+      "class": "B",
+      "flag": "BE",
+      "length": 10,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:16:49.338060+00:00",
+      "updated_at": "2018-08-22T14:22:11.181688+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-22T14:21:34+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            3.81126,
+            51.55346
+          ]
+        },
+        "heading": 511,
+        "speed": 1.3,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 339
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "6",
+      "lifeboats": 1,
+      "person_capacity": 8,
+      "navigational_status": null
+    },
+    {
+      "id": "0772722f-09f8-4f17-b562-a37c65c5d7a7",
+      "name": "SUN MOON KEE",
+      "mmsi": 477995197,
+      "imo": null,
+      "call_sign": "VRS4570",
+      "ship_type": "Cargo",
+      "class": "A",
+      "flag": "HK",
+      "length": 50,
+      "width": 19,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:20:34.355790+00:00",
+      "updated_at": "2018-09-07T19:24:11.916587+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:23:21+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.03881,
+            22.34005
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 121
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "HONG KONG"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Lighter",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "At anchor"
+    },
+    {
+      "id": "3fa7971b-1805-4586-bb68-6db3e404c3c0",
+      "name": "TAPBO 268",
+      "mmsi": 477995543,
+      "imo": null,
+      "call_sign": "VRS4885",
+      "ship_type": "Cargo",
+      "class": "A",
+      "flag": "HK",
+      "length": 50,
+      "width": 19,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:20:53.534632+00:00",
+      "updated_at": "2018-09-07T19:28:15.574234+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:28:04+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.95524,
+            22.29858
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 360
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "P"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Lighter",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "ce748f40-082d-41b9-a0d0-f42ccf0a2ad8",
+      "name": "TB235",
+      "mmsi": 477995409,
+      "imo": null,
+      "call_sign": "VRS4773",
+      "ship_type": "Tug",
+      "class": "A",
+      "flag": "HK",
+      "length": 49,
+      "width": 19,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:20:53.534632+00:00",
+      "updated_at": "2018-09-07T12:52:24.536406+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T12:50:42+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.95472,
+            22.30003
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 360
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "P"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Lighter",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "d88d38fd-8823-4a62-b823-c5816ef2634d",
+      "name": "THOMAS RICHMOND",
+      "mmsi": 503001240,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "AU",
+      "length": 11,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:20:53.534632+00:00",
+      "updated_at": "2018-08-29T01:24:10.892217+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-29T01:19:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153.18845,
+            -27.45563
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 325.1
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "d8a0447e-1c1b-4e00-aa85-96eff8c2f17a",
+      "name": "FU TAT",
+      "mmsi": 477995607,
+      "imo": null,
+      "call_sign": "VRS4942",
+      "ship_type": "Tug",
+      "class": "A",
+      "flag": "HK",
+      "length": 49,
+      "width": 20,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:20:53.534632+00:00",
+      "updated_at": "2018-09-07T19:06:12.344243+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:05:33+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            113.93765,
+            22.33083
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 360
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "H"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Lighter",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "At anchor"
+    },
+    {
+      "id": "54a18c20-0dad-4218-a319-47109f7819ed",
+      "name": "CHAMPURRS",
+      "mmsi": 503006830,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "AU",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:21:15.341717+00:00",
+      "updated_at": "2018-09-04T10:40:11.694644+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-04T10:39:55+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            19.78508,
+            39.91371
+          ]
+        },
+        "heading": 511,
+        "speed": 6.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 317.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "47020790-b0d2-46e9-b04d-95bee6d64a5a",
+      "name": "ILLAWARRA",
+      "mmsi": 503023620,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "AU",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:21:43.988269+00:00",
+      "updated_at": "2018-08-31T05:36:17.185093+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-31T05:35:59+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153.19184,
+            -27.45698
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 358.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "bf1bbcef-51a6-4ae1-bed8-05861c8d9e8e",
+      "name": "KIDS INHERITANCE",
+      "mmsi": 503024440,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "AU",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:21:43.988269+00:00",
+      "updated_at": "2018-08-13T13:22:12.569238+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-13T05:55:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25.90729,
+            36.9292
+          ]
+        },
+        "heading": 79,
+        "speed": 8.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 82.1
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "65605696-616e-4229-994d-8735a807b04a",
+      "name": "KING BILLY 1",
+      "mmsi": 503036480,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "AU",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:22:21.488278+00:00",
+      "updated_at": "2018-08-26T10:14:35.855269+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-26T01:01:10+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            173.31416,
+            -41.201
+          ]
+        },
+        "heading": 511,
+        "speed": 3.7,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 228.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "7c8e7fb3-adbf-4881-9bed-ca26d23f64bd",
+      "name": "EVA MARTIN",
+      "mmsi": 503037780,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "AU",
+      "length": 14,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:22:21.488278+00:00",
+      "updated_at": "2018-07-23T17:02:10.972992+00:00",
+      "last_known_position": {
+        "timestamp": "2018-07-23T17:01:40+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.64734,
+            37.93698
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 135.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "2ec44ed3-5373-4e91-9740-65ac2f1ec03d",
+      "name": "SEA WOLF",
+      "mmsi": 503069300,
+      "imo": null,
+      "call_sign": "VLV9351",
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "AU",
+      "length": 18,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:22:58.880407+00:00",
+      "updated_at": "2018-09-05T07:28:12.182455+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-05T07:27:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            146.82431,
+            -19.25223
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 205.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f737d2d3-21a4-4db8-9d15-befa0b58c48a",
+      "name": "MARIA HONUNGSHOST",
+      "mmsi": 205649910,
+      "imo": null,
+      "call_sign": "OR6499",
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "BE",
+      "length": 10,
+      "width": 3,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:30:37.260555+00:00",
+      "updated_at": "2018-08-09T07:02:12.614970+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-09T07:01:35+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22.95375,
+            37.95632
+          ]
+        },
+        "heading": 511,
+        "speed": 5.9,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 312.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "6,7",
+      "lifeboats": 1,
+      "person_capacity": 8,
+      "navigational_status": null
+    },
+    {
+      "id": "e2a37e0f-83ab-48be-afc3-14d503808000",
+      "name": "TIANSHI",
+      "mmsi": 412017720,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "CN",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:32:38.021838+00:00",
+      "updated_at": "2018-09-06T17:11:11.572764+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-06T17:10:18+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.37315,
+            37.58982
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 0
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "All Other Activities",
+      "individual_classification": "Barge",
+      "gross_tonnage": "2864.0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "b4d14520-9652-46a9-a8f5-70d8eb4285b8",
+      "name": "SAN HANG JUN 3",
+      "mmsi": 412043340,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Other",
+      "class": "B",
+      "flag": "CN",
+      "length": 35,
+      "width": 16,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:34:23.904133+00:00",
+      "updated_at": "2018-08-23T06:55:11.514556+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T06:54:37+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            119.12364,
+            24.99026
+          ]
+        },
+        "heading": 511,
+        "speed": 5.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 39.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "All Other Activities",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "34.0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "bd187268-3a29-41bb-bdc2-5922bbd2a4ee",
+      "name": "SANHANGJUN1",
+      "mmsi": 412043320,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Other",
+      "class": "B",
+      "flag": "CN",
+      "length": 36,
+      "width": 36,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:34:23.904133+00:00",
+      "updated_at": "2018-09-07T19:27:11.421043+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:26:48+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            118.74166,
+            24.7231
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 224.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "All Other Activities",
+      "individual_classification": "Dredger",
+      "gross_tonnage": "659.0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "c042910f-9ac9-496e-9575-ef5ce45c5206",
+      "name": "RV DISCOVERY",
+      "mmsi": 533002150,
+      "imo": null,
+      "call_sign": "9MLG6",
+      "ship_type": null,
+      "class": "A",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:37:10.363538+00:00",
+      "updated_at": "2018-08-14T15:40:12.098197+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-14T14:46:58+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            103.1308,
+            5.34003
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 301.7
+      },
+      "most_recent_voyage": {
+        "eta": "2018-07-31T12:00:00+00:00",
+        "destination": "KUALA TERENGGANU"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "2981e354-1e36-4c51-b992-7f9c3c3a5408",
+      "name": "LONG YUAN TUO 88",
+      "mmsi": 412209310,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Tug",
+      "class": "A",
+      "flag": "CN",
+      "length": 61,
+      "width": 12,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:39:20.570485+00:00",
+      "updated_at": "2018-08-12T04:46:11.593303+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-12T04:45:24+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.66582,
+            38.95237
+          ]
+        },
+        "heading": 511,
+        "speed": 8,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 277.7
+      },
+      "most_recent_voyage": {
+        "eta": "2019-03-23T23:00:00+00:00",
+        "destination": "DALIAN"
+      },
+      "general_classification": "All Other Activities",
+      "individual_classification": "Pusher\/Tug",
+      "gross_tonnage": "916.0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Under way sailing"
+    },
+    {
+      "id": "5264e57a-760b-495c-b80e-4c60fe052440",
+      "name": "SLFA 4623",
+      "mmsi": 533190035,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:44:55.009232+00:00",
+      "updated_at": "2018-08-25T11:42:11.845489+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:41:35+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.9085,
+            3.4233
+          ]
+        },
+        "heading": 511,
+        "speed": 2.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 160.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "d0eb8769-d5bb-49ba-a210-4fde20ebc33c",
+      "name": "SLFA 5009",
+      "mmsi": 533190062,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:44:55.009232+00:00",
+      "updated_at": "2018-08-23T17:06:11.949918+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T17:05:05+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.0414,
+            3.38088
+          ]
+        },
+        "heading": 511,
+        "speed": 3.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 91.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "0bf3eb65-6b9c-4c7a-9602-eea1e40af5b5",
+      "name": "SLFA 4699",
+      "mmsi": 533190133,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T11:38:10.002166+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:37:04+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.70456,
+            3.60406
+          ]
+        },
+        "heading": 511,
+        "speed": 1.9,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 335.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "23a5f5be-4881-4f31-86d1-d979a7a7a813",
+      "name": "SLFA 4589",
+      "mmsi": 533190075,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-30T07:16:22.431354+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:42:24+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.87491,
+            3.29389
+          ]
+        },
+        "heading": 511,
+        "speed": 3.3,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 318.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "25f857bf-14de-47f6-94dc-a1f5e245faaa",
+      "name": "SLFA 4533",
+      "mmsi": 533190084,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-23T10:44:09.397250+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T10:43:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.97337,
+            3.25468
+          ]
+        },
+        "heading": 511,
+        "speed": 3.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 220.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "32f77dd2-552c-4608-85b3-bcd30c11d6d3",
+      "name": "SLFA 4970",
+      "mmsi": 533190191,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T12:00:16.006625+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:59:55+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.94944,
+            3.37972
+          ]
+        },
+        "heading": 511,
+        "speed": 2.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 245.8
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "49d20c11-c2c6-4a6a-9761-6c63a6d93737",
+      "name": "SLFA 4606",
+      "mmsi": 533190155,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-28T03:49:11.267621+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-28T03:48:46+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.48306,
+            3.74074
+          ]
+        },
+        "heading": 511,
+        "speed": 3.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 316.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "58b4b243-3768-47c7-a865-d39549fc302e",
+      "name": "SLFA 4726",
+      "mmsi": 533190083,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-19T14:46:19.654470+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T13:31:04.647844+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.78972,
+            3.28825
+          ]
+        },
+        "heading": 511,
+        "speed": 1.3,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 340.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "62895865-4eec-46c8-8f61-61b987b67155",
+      "name": "SLFA 4876",
+      "mmsi": 533190178,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-19T14:50:08.572846+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:24:30.756302+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.84393,
+            3.73167
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 337.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "80ad4c70-4905-4a37-9845-4e730f03897c",
+      "name": "SLFA 4390",
+      "mmsi": 533190138,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-18T14:49:10.126731+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-18T14:48:55.233588+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.98057,
+            3.66727
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 245.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "867a7540-102d-49e2-9dd1-ee034e2fb8cd",
+      "name": "PKFA 8676",
+      "mmsi": 533190112,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-19T14:36:12.061772+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:30:39.519944+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09744,
+            3.5033
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 232.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "9259c8f3-c4e5-4a39-901b-1eae3fc137ca",
+      "name": "SLFA 4365",
+      "mmsi": 533190128,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-09-04T09:44:14.010974+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T05:44:01.282512+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.97774,
+            3.65938
+          ]
+        },
+        "heading": 511,
+        "speed": 7.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 8.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "a5a8e111-71e0-4ddb-8439-70340b79ff4c",
+      "name": "SLFA 4706",
+      "mmsi": 533190176,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T11:45:10.287362+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:44:14+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.90717,
+            3.39589
+          ]
+        },
+        "heading": 511,
+        "speed": 3.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 325.1
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "ae27f39b-9a2e-46c2-b2fc-46091300174a",
+      "name": "PKFA 310",
+      "mmsi": 533190146,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "MY",
+      "length": 18,
+      "width": 6,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T11:43:13.895350+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:42:58+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.76555,
+            3.58645
+          ]
+        },
+        "heading": 511,
+        "speed": 0.8,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 308
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "SG. BESAR"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "bacb02fa-ec4e-4b8e-8446-c11731f2072e",
+      "name": "SLFA 4261",
+      "mmsi": 533190179,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "MY",
+      "length": 16,
+      "width": 6,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-23T14:37:13.965073+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T14:36:56+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.85177,
+            3.45677
+          ]
+        },
+        "heading": 511,
+        "speed": 0.9,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 169.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "SG. BESAR"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "d2066469-0e84-4b2d-9e67-ad954c44b8fc",
+      "name": "SLFA 4198",
+      "mmsi": 533190174,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T12:09:12.462446+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T12:08:45+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.79247,
+            3.48041
+          ]
+        },
+        "heading": 511,
+        "speed": 5.4,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 144.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "dcbaa4eb-3c67-4116-a3ca-a86e1a86d94d",
+      "name": "SLFA 4100",
+      "mmsi": 533190145,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-19T12:02:11.510005+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T12:01:54.173441+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.98199,
+            3.6675
+          ]
+        },
+        "heading": 511,
+        "speed": 0.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 139.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f122ee7b-b94c-41fe-81d4-cfd2e65ffbe9",
+      "name": "SLFA 3559",
+      "mmsi": 533190069,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-25T05:09:10.756473+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T04:42:26+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.00264,
+            3.50958
+          ]
+        },
+        "heading": 511,
+        "speed": 6.9,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 91.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f8f96072-c666-4c30-b30d-443140a2ae67",
+      "name": "SLFA 4373",
+      "mmsi": 533190113,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:45:27.278892+00:00",
+      "updated_at": "2018-08-19T14:37:14.048266+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:36:53.056676+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09766,
+            3.50353
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 114
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "21b5301c-4dc6-4c10-8d06-befd217be75c",
+      "name": "SLFA 4587",
+      "mmsi": 533190303,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-09-06T22:20:11.371279+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-06T21:42:11+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.99514,
+            3.35398
+          ]
+        },
+        "heading": 511,
+        "speed": 3,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 296.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "2f61a1c0-b871-4cdf-8d98-46bbcb25af71",
+      "name": "SLFA 3467",
+      "mmsi": 533190255,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T05:46:16.912133+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T05:45:50.305180+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.97776,
+            3.65964
+          ]
+        },
+        "heading": 511,
+        "speed": 7,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 13.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "33d9d099-6a2c-4d46-823d-800871db1f1c",
+      "name": "SLFA 3512",
+      "mmsi": 533190362,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-31T16:45:25.678724+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-31T16:09:51+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.82589,
+            3.24944
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 326.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "39b95830-0de9-4a26-8a39-690c0c5f5999",
+      "name": "SLFA 4663",
+      "mmsi": 533190359,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-25T11:55:09.818632+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:54:15+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.87644,
+            3.30248
+          ]
+        },
+        "heading": 511,
+        "speed": 3.9,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 266.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "3a2fbec2-9ef4-45ed-8c3a-d1bb8b5d281e",
+      "name": "JHF 5428 T",
+      "mmsi": 533190406,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:50:09.375744+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:49:36.101669+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            104.10808,
+            1.93127
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 313.1
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "43a99238-c69e-49c0-ab67-9d2b2eb8f1db",
+      "name": "SLFA 1588",
+      "mmsi": 533190302,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-23T15:16:11.463926+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T15:15:10+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.87678,
+            3.30521
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 135.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "4a4eb63c-cf1c-457b-9142-6872a87aa192",
+      "name": "SLFA 4486",
+      "mmsi": 533190297,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:46:13.842508+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:36:51.018503+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.07859,
+            3.49384
+          ]
+        },
+        "heading": 511,
+        "speed": 3.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 265.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "5e18dcbc-a4fc-480e-8527-91facab948c3",
+      "name": "SLFA 4605",
+      "mmsi": 533190295,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:50:08.963690+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:49:23.180336+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.95723,
+            3.32873
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 265.6
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "62372e77-333c-4ad7-b5b4-7d478da1ec9c",
+      "name": "SLFA 4592",
+      "mmsi": 533190358,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T12:06:18.934857+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T12:05:54.952819+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09419,
+            3.50737
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 335.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "6c944ce3-60cd-4c6c-84dd-332f5a267159",
+      "name": "SLFA 4709",
+      "mmsi": 533190292,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:37:13.191587+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:36:54.152360+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.81903,
+            3.27644
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 298.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "70f71990-b767-4aa0-ae5f-ca24d7c66bee",
+      "name": "SLFA 5047",
+      "mmsi": 533190235,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-23T14:16:15.410898+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T14:15:48+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.90889,
+            3.43416
+          ]
+        },
+        "heading": 511,
+        "speed": 3,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 322.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "73f23d78-6eca-4e08-9e58-8f833fd97c1f",
+      "name": "JHF 1352 T",
+      "mmsi": 533190418,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:51:11.880686+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:45:33.009550+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            104.11089,
+            1.93035
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 144.5
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "757e4531-a96f-4901-9c9f-9b0fdf926ba7",
+      "name": "SLFA 4584",
+      "mmsi": 533190256,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:48:10.578036+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:47:18.045488+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.04948,
+            3.46019
+          ]
+        },
+        "heading": 511,
+        "speed": 6.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 183.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "89264b0d-7420-4a4d-bdfa-173b7dc9d58f",
+      "name": "SLFA 212",
+      "mmsi": 533190254,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:31:21.804888+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:31:13.939329+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.97937,
+            3.66789
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 175.8
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "8dd25738-0274-4eae-a1ef-221c515b0666",
+      "name": "SLFA 4344",
+      "mmsi": 533190331,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T01:05:12.727055+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T01:04:56.595614+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.98207,
+            3.66766
+          ]
+        },
+        "heading": 511,
+        "speed": 0.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 39.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "9554bd22-207c-44ea-ad9c-2c560c3f6ec3",
+      "name": "SLFA 4728",
+      "mmsi": 533190299,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-09-05T10:29:12.785992+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:38:36+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09643,
+            3.50326
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 277.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "ad103ded-5d23-4cff-970f-1b3ee39822b5",
+      "name": "SLFA 5016",
+      "mmsi": 533190435,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-25T11:40:10.728863+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:39:37+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09455,
+            3.50617
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 326.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "cc79daae-f926-434f-8ea5-8103d2c8b3ae",
+      "name": "SLFA 3341",
+      "mmsi": 533190234,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:22:16.509844+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:22:13.653322+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09675,
+            3.50286
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 58.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "da2b4ce4-ca51-408b-b181-2e54c4c74db7",
+      "name": "SLFA 4483",
+      "mmsi": 533190258,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-29T19:55:35.062974+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:47:11.422548+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.09553,
+            3.50201
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 347.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "dd23b6de-5db2-4ec5-8503-90df1507ce60",
+      "name": "SLFA 4698",
+      "mmsi": 533190355,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-23T13:54:08.812026+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T13:52:58+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.9836,
+            3.31376
+          ]
+        },
+        "heading": 511,
+        "speed": 3.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 341.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "de26f0aa-b199-4160-b92e-9badeb8d87aa",
+      "name": "SLFA 4257",
+      "mmsi": 533190315,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-09-04T11:54:12.392667+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-04T11:53:41+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            101.13545,
+            3.10938
+          ]
+        },
+        "heading": 511,
+        "speed": 7.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 158.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f454f17f-7404-49fd-9fb1-4efc2909251c",
+      "name": "SLFA 4650",
+      "mmsi": 533190294,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-25T12:00:14.843617+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-25T11:59:56+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.95849,
+            3.37265
+          ]
+        },
+        "heading": 511,
+        "speed": 2.2,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 122.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f55de566-9cc7-45f6-8b4c-5af997cfe58f",
+      "name": "SLFA 4501",
+      "mmsi": 533190293,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-28T00:33:12.151243+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-28T00:32:48+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.85206,
+            3.1979
+          ]
+        },
+        "heading": 511,
+        "speed": 2.5,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 137.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f8260a16-291d-4830-b6ae-2f5a5663c6e9",
+      "name": "PKFA 9747",
+      "mmsi": 533190241,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-30T16:05:21.456359+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-30T16:05:05+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.87164,
+            3.30848
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 80.8
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "fb839131-6bbf-42cc-9925-c2b501ffec40",
+      "name": "SLFA 4727",
+      "mmsi": 533190306,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": "Fishing",
+      "class": "B",
+      "flag": "MY",
+      "length": 15,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-23T13:37:08.611665+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-23T13:36:06+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            100.9134,
+            3.42246
+          ]
+        },
+        "heading": 511,
+        "speed": 3.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 322.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "fd6c3307-c262-4bb0-bd60-8755f35a5c8f",
+      "name": "JHF 6787 T",
+      "mmsi": 533190404,
+      "imo": null,
+      "call_sign": null,
+      "ship_type": null,
+      "class": "B",
+      "flag": "MY",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:47:33.255382+00:00",
+      "updated_at": "2018-08-19T14:48:10.977739+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T14:47:17.817243+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            104.10891,
+            1.93091
+          ]
+        },
+        "heading": 511,
+        "speed": 0.1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 98.9
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "961697a3-2fc5-4b9f-9bb1-7927e9340eef",
+      "name": "JOHAN PIONEER 2",
+      "mmsi": 533636000,
+      "imo": 9409211,
+      "call_sign": "9 WGN 5",
+      "ship_type": "Tug",
+      "class": "A",
+      "flag": "MY",
+      "length": 34,
+      "width": 10,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:49:46.434214+00:00",
+      "updated_at": "2018-09-07T09:04:19.657207+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T02:05:20+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            112.36008,
+            3.35707
+          ]
+        },
+        "heading": 70,
+        "speed": 6.4,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 60.1
+      },
+      "most_recent_voyage": {
+        "eta": "2018-07-23T15:00:00+00:00",
+        "destination": "SIBU\/MALAYSIA"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Pusher\/Tug",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Moored"
+    },
+    {
+      "id": "96d45aaa-bd31-4bf1-98b0-a8edabcddd50",
+      "name": "REIKIBENSA",
+      "mmsi": 211135380,
+      "imo": null,
+      "call_sign": "DK4620",
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "DE",
+      "length": 13,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:54:20.480488+00:00",
+      "updated_at": "2018-08-10T12:58:12.575464+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-10T12:57:53+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.85146,
+            51.71596
+          ]
+        },
+        "heading": 511,
+        "speed": 6.5,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 73.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 4,
+      "navigational_status": null
+    },
+    {
+      "id": "24b95f95-dfd3-41ad-9278-c037bfbc27e7",
+      "name": "ELVSTINT",
+      "mmsi": 211176490,
+      "imo": null,
+      "call_sign": "DJCG",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "DE",
+      "length": 21,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:58:53.311473+00:00",
+      "updated_at": "2018-08-27T15:38:10.646911+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-27T15:37:35+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.14407,
+            53.4145
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 360
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Fishing Industry",
+      "individual_classification": "Fishing Vessel",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "At anchor"
+    },
+    {
+      "id": "e66975ed-b997-4d04-abc7-9190ebf2c170",
+      "name": "DOLPHIN BABAJI",
+      "mmsi": 540009310,
+      "imo": null,
+      "call_sign": "FAB6025",
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "NC",
+      "length": 13,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:59:30.457600+00:00",
+      "updated_at": "2018-08-19T05:42:09.565882+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-19T05:41:30+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            166.43663,
+            -22.29079
+          ]
+        },
+        "heading": 511,
+        "speed": 0.6,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 218.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Sailing Ship",
+      "gross_tonnage": "20",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "b8455083-d371-4645-8dec-32977c53e12d",
+      "name": "BLACKMARLIN",
+      "mmsi": 211184440,
+      "imo": null,
+      "call_sign": "DA2569",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "DE",
+      "length": 6,
+      "width": 2,
+      "ais_version": 0,
+      "created_at": "2017-08-11T18:59:50.469380+00:00",
+      "updated_at": "2018-09-04T09:05:08.800241+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-04T09:03:39+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            7.26138,
+            51.81704
+          ]
+        },
+        "heading": 358,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 4.2
+      },
+      "most_recent_voyage": {
+        "eta": "2018-09-04T09:04:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 6,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "3dee102e-e71e-4e73-9c3e-9dafe799da73",
+      "name": "CORNELIA",
+      "mmsi": 211193000,
+      "imo": null,
+      "call_sign": "DIUE",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "DE",
+      "length": 18,
+      "width": 5,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:01:19.348206+00:00",
+      "updated_at": "2018-08-06T14:53:14.466293+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-06T14:53:03+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.54085,
+            54.33941
+          ]
+        },
+        "heading": 511,
+        "speed": 8.5,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 20.7
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "-   ,"
+      },
+      "general_classification": "Fishing Industry",
+      "individual_classification": "Cutter",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 3,
+      "navigational_status": "Aground"
+    },
+    {
+      "id": "16b781d8-f314-4a13-b7ec-276c72958ba9",
+      "name": "MARINE 1",
+      "mmsi": 211210330,
+      "imo": null,
+      "call_sign": "DRVB",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 15,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-09-07T19:25:21.146954+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:25:12+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.49584,
+            52.4712
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 53.4
+      },
+      "most_recent_voyage": {
+        "eta": "2019-04-17T12:00:00+00:00",
+        "destination": "BERLIN"
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "1cfca223-1d98-4622-9b5d-556761a1783a",
+      "name": "WERRA",
+      "mmsi": 211210100,
+      "imo": null,
+      "call_sign": "DRHM",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 101,
+      "width": 16,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-08-30T16:56:18.588589+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-30T16:55:01+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.14446,
+            54.35381
+          ]
+        },
+        "heading": 82,
+        "speed": 0.1,
+        "rot": 127,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 199.9
+      },
+      "most_recent_voyage": {
+        "eta": "2019-06-26T16:00:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "3ab3a2dc-9e41-441a-b58d-c81089c40ac8",
+      "name": "MAIN",
+      "mmsi": 211210120,
+      "imo": null,
+      "call_sign": "DRHN",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 101,
+      "width": 16,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-07-31T04:53:08.917936+00:00",
+      "last_known_position": {
+        "timestamp": "2018-07-31T04:50:52+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.4025,
+            53.84
+          ]
+        },
+        "heading": 23,
+        "speed": 0,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 33.3
+      },
+      "most_recent_voyage": {
+        "eta": "2019-01-01T00:00:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Moored"
+    },
+    {
+      "id": "702bb645-87ca-48de-8c04-01775dcb17e7",
+      "name": "FULDA",
+      "mmsi": 211210380,
+      "imo": null,
+      "call_sign": "DRFC",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 55,
+      "width": 10,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-07-31T12:57:09.908979+00:00",
+      "last_known_position": {
+        "timestamp": "2018-07-31T12:55:02+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.15093,
+            54.3536
+          ]
+        },
+        "heading": 324,
+        "speed": 8.5,
+        "rot": 127,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 322
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "f4dc1dac-6869-4dd0-97b2-3ed72804c72e",
+      "name": "WEILHEIM",
+      "mmsi": 211210420,
+      "imo": null,
+      "call_sign": "DRFD",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 55,
+      "width": 10,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-09-06T17:21:17.217955+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-06T17:20:05+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.14431,
+            54.35694
+          ]
+        },
+        "heading": 283,
+        "speed": 0.3,
+        "rot": 127,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 190.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "fc3ee409-c535-4cd2-8bad-b2bfaf0e233d",
+      "name": "SPESSART",
+      "mmsi": 211211850,
+      "imo": null,
+      "call_sign": "DRKN",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 130,
+      "width": 19,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:02:53.477001+00:00",
+      "updated_at": "2018-09-03T08:11:25.373252+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-03T08:05:03+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.14909,
+            54.36226
+          ]
+        },
+        "heading": 297,
+        "speed": 0.2,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 270
+      },
+      "most_recent_voyage": {
+        "eta": "2019-01-01T01:01:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Naval",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "36b7c852-a181-4cea-a5ad-1b08834f7f79",
+      "name": "ROSE MARIE",
+      "mmsi": 548163100,
+      "imo": null,
+      "call_sign": "DUTG7",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "PH",
+      "length": 56,
+      "width": 12,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:03:08.830085+00:00",
+      "updated_at": "2018-09-02T11:37:13.619610+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-02T08:15:39+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151.5646,
+            -3.85928
+          ]
+        },
+        "heading": 511,
+        "speed": 11.1,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 289.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "FISH GROUND"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Moored"
+    },
+    {
+      "id": "e47adc70-d61e-45bc-b7af-6a1c90570701",
+      "name": "NAGOM",
+      "mmsi": 211223750,
+      "imo": null,
+      "call_sign": "DF3795",
+      "ship_type": "Sailing",
+      "class": "B",
+      "flag": "DE",
+      "length": 11,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:03:45.622244+00:00",
+      "updated_at": "2018-08-06T08:37:08.762751+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-06T08:36:16+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            23.00643,
+            37.91861
+          ]
+        },
+        "heading": 511,
+        "speed": 5.5,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": null,
+        "course": 313.4
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Sailing Ship",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 2,
+      "navigational_status": null
+    },
+    {
+      "id": "f35e0c6f-127d-4c7c-80f9-faa21a16e410",
+      "name": "JONATHAN",
+      "mmsi": 211230950,
+      "imo": null,
+      "call_sign": "DF9298",
+      "ship_type": "Pleasure Craft",
+      "class": "A",
+      "flag": "DE",
+      "length": 10,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:04:45.675308+00:00",
+      "updated_at": "2018-08-16T15:26:23.118465+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-16T15:25:04+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.42211,
+            53.78527
+          ]
+        },
+        "heading": 511,
+        "speed": 0.9,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 332.5
+      },
+      "most_recent_voyage": {
+        "eta": "2018-08-16T17:00:00+00:00",
+        "destination": "GLUECKSTADT"
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Sailing Ship",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 2,
+      "navigational_status": "Under way sailing"
+    },
+    {
+      "id": "30d44d45-eb6f-44a4-b3da-a2779dc92ecd",
+      "name": "RSS TENACIOUS",
+      "mmsi": 563593000,
+      "imo": null,
+      "call_sign": "S6KL",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "SG",
+      "length": 118,
+      "width": 20,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:05:50.553208+00:00",
+      "updated_at": "2018-08-31T04:31:14.095901+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-31T04:30:10+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            104.02634,
+            1.31936
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 0
+      },
+      "most_recent_voyage": {
+        "eta": "2018-08-16T00:00:00+00:00",
+        "destination": "JP YOS"
+      },
+      "general_classification": "Naval",
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "5002f795-b8b1-4a9b-be70-6a44365ba251",
+      "name": "PRISEMUTH",
+      "mmsi": 211324170,
+      "imo": null,
+      "call_sign": "DD7898",
+      "ship_type": "Sailing",
+      "class": "A",
+      "flag": "DE",
+      "length": 9,
+      "width": 3,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:10:55.270935+00:00",
+      "updated_at": "2018-08-03T16:02:28.998817+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-03T08:57:45+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.6355,
+            54.76859
+          ]
+        },
+        "heading": 0,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 0
+      },
+      "most_recent_voyage": {
+        "eta": "2018-08-03T08:59:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Under way sailing"
+    },
+    {
+      "id": "ba1ca23b-e16c-438a-be17-dfb7cc96cbc3",
+      "name": "SPLINTER",
+      "mmsi": 211332190,
+      "imo": null,
+      "call_sign": "DF3426",
+      "ship_type": "Sailing",
+      "class": "A",
+      "flag": "DE",
+      "length": 9,
+      "width": 3,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:11:52.842591+00:00",
+      "updated_at": "2018-08-01T16:26:16.738821+00:00",
+      "last_known_position": {
+        "timestamp": "2018-08-01T16:21:19+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.46319,
+            52.97819
+          ]
+        },
+        "heading": 359,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 186.7
+      },
+      "most_recent_voyage": {
+        "eta": "2018-08-01T16:26:00+00:00",
+        "destination": "WORKUM"
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 6,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "c9f4df17-7d72-4313-aa63-85efadd199d5",
+      "name": "B. SKY",
+      "mmsi": 577201000,
+      "imo": 9381627,
+      "call_sign": "YJTN7",
+      "ship_type": "Tanker",
+      "class": "A",
+      "flag": "VU",
+      "length": 106,
+      "width": 16,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:17:36.377915+00:00",
+      "updated_at": "2018-09-07T18:45:15.840567+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T18:15:41+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            177.47101,
+            3.05681
+          ]
+        },
+        "heading": 102,
+        "speed": 9.9,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": 6,
+        "maneuver": 0,
+        "course": 103.4
+      },
+      "most_recent_voyage": {
+        "eta": "2017-08-21T09:00:00+00:00",
+        "destination": "FISHING   GROUND"
+      },
+      "general_classification": "Service Vessels",
+      "individual_classification": "Oil Tanker",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Not under command"
+    },
+    {
+      "id": "0f2a0271-c78f-4dc9-a95a-47d3cd3ef16e",
+      "name": "S.A. AGULHAS II",
+      "mmsi": 601986000,
+      "imo": 9577135,
+      "call_sign": "ZSNO",
+      "ship_type": "Passenger",
+      "class": "A",
+      "flag": "ZA",
+      "length": 134,
+      "width": 23,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:18:09.790797+00:00",
+      "updated_at": "2018-09-07T18:57:15.435550+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T18:35:40+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            17.67347,
+            -34.35395
+          ]
+        },
+        "heading": 231,
+        "speed": 13.3,
+        "rot": 9,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": 7.7,
+        "maneuver": 0,
+        "course": 234.1
+      },
+      "most_recent_voyage": {
+        "eta": "2017-09-13T19:00:00+00:00",
+        "destination": "TRISTAN"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "12897",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "c97bf77a-0799-4d19-9511-0978ecf6f852",
+      "name": "BUNTHAUS",
+      "mmsi": 211459920,
+      "imo": null,
+      "call_sign": "DA6185",
+      "ship_type": "Other",
+      "class": "A",
+      "flag": "DE",
+      "length": 15,
+      "width": 4,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:23:56.144526+00:00",
+      "updated_at": "2018-09-07T19:28:11.163793+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T19:27:31+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.00214,
+            53.52546
+          ]
+        },
+        "heading": 195,
+        "speed": 0,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 360
+      },
+      "most_recent_voyage": {
+        "eta": "2018-12-20T08:00:00+00:00",
+        "destination": "HAMBURG"
+      },
+      "general_classification": "Inland Waterways",
+      "individual_classification": "Launch",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Moored"
+    },
+    {
+      "id": "b6ed4851-c629-4f0a-9c90-9e1874ced280",
+      "name": "ELENI D",
+      "mmsi": 636014651,
+      "imo": 9577410,
+      "call_sign": "A8VQ4",
+      "ship_type": "Cargo",
+      "class": "A",
+      "flag": "LR",
+      "length": 196,
+      "width": 33,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:24:21.193385+00:00",
+      "updated_at": "2018-09-01T07:43:23.240968+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-01T01:07:53+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            31.33549,
+            6.45248
+          ]
+        },
+        "heading": 339,
+        "speed": 2.2,
+        "rot": 4,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 198.1
+      },
+      "most_recent_voyage": {
+        "eta": "2019-02-07T11:00:00+00:00",
+        "destination": "KLANG"
+      },
+      "general_classification": "Merchant",
+      "individual_classification": "Bulk Carrier",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Not under command"
+    },
+    {
+      "id": "1573b894-0f9a-461a-a708-64f42fe20c04",
+      "name": "SVEA",
+      "mmsi": 211466080,
+      "imo": null,
+      "call_sign": "DJ3770",
+      "ship_type": "Sailing",
+      "class": "A",
+      "flag": "DE",
+      "length": 10,
+      "width": 3,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:24:53.532832+00:00",
+      "updated_at": "2018-09-02T07:54:11.243327+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-02T06:32:03+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.41414,
+            53.785
+          ]
+        },
+        "heading": 357,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 138.7
+      },
+      "most_recent_voyage": {
+        "eta": "2018-09-02T07:53:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "64cf17d7-fbb8-40cd-9c89-940b3e504b1a",
+      "name": "SANTANITA",
+      "mmsi": 211488340,
+      "imo": null,
+      "call_sign": "DK5397",
+      "ship_type": "Sailing",
+      "class": "A",
+      "flag": "DE",
+      "length": 10,
+      "width": 30,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:26:43.261126+00:00",
+      "updated_at": "2018-07-28T07:45:18.952354+00:00",
+      "last_known_position": {
+        "timestamp": "2018-07-28T07:44:08+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.13272,
+            54.32586
+          ]
+        },
+        "heading": 0,
+        "speed": 1,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 0,
+        "course": 0
+      },
+      "most_recent_voyage": {
+        "eta": "2018-07-27T22:00:00+00:00",
+        "destination": null
+      },
+      "general_classification": "Pleasure\/Leisure",
+      "individual_classification": "Yacht",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 6,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "fc82d349-8399-44ae-987b-7dd6d3d336be",
+      "name": "DN60",
+      "mmsi": 645137000,
+      "imo": null,
+      "call_sign": "3BJV",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "MU",
+      "length": 18,
+      "width": 6,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:29:40.223150+00:00",
+      "updated_at": "2018-09-07T17:42:19.716829+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T17:06:49+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -59.70893,
+            -33.6256
+          ]
+        },
+        "heading": 511,
+        "speed": 0,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 293.3
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": null
+    },
+    {
+      "id": "35ed3f53-2170-48f1-a1c2-781c17a60017",
+      "name": "ZOGI",
+      "mmsi": 659010000,
+      "imo": null,
+      "call_sign": "V5ZG",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "NA",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:30:11.199840+00:00",
+      "updated_at": "2018-09-07T18:57:15.180087+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T18:38:43+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            14.51285,
+            -22.93285
+          ]
+        },
+        "heading": 221,
+        "speed": 0,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 123.8
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "7f3e74ee-78c2-4469-84e4-28e36ea699c7",
+      "name": "BEGONIA",
+      "mmsi": 659053000,
+      "imo": null,
+      "call_sign": "V5BW",
+      "ship_type": "Fishing",
+      "class": "A",
+      "flag": "NA",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:30:11.199840+00:00",
+      "updated_at": "2018-09-07T18:57:14.629667+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-07T18:37:10+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            13.26896,
+            -22.96592
+          ]
+        },
+        "heading": 168,
+        "speed": 7.4,
+        "rot": 0,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": 0,
+        "course": 169.2
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "WALVISBAY NAMIBIA"
+      },
+      "general_classification": null,
+      "individual_classification": null,
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": null,
+      "navigational_status": "Engaged in fishing"
+    },
+    {
+      "id": "0c8e16f9-50b5-4053-ab94-05fd72c02028",
+      "name": "EUROPA",
+      "mmsi": 211514660,
+      "imo": null,
+      "call_sign": "DA4274",
+      "ship_type": "Passenger",
+      "class": "A",
+      "flag": "DE",
+      "length": null,
+      "width": null,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:31:04.065063+00:00",
+      "updated_at": "2018-09-02T13:01:13.259391+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-02T13:00:29+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.60859,
+            52.33595
+          ]
+        },
+        "heading": 511,
+        "speed": 7.3,
+        "rot": -128,
+        "accuracy": null,
+        "collection_type": "terrestrial",
+        "draught": null,
+        "maneuver": 1,
+        "course": 102.1
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": "MINDEN"
+      },
+      "general_classification": "Inland Waterways",
+      "individual_classification": "Passenger Ship",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 300,
+      "navigational_status": "Undefined"
+    },
+    {
+      "id": "ea4d4c67-c271-46b1-80ab-94403e44b840",
+      "name": "CLAUDIA",
+      "mmsi": 211514240,
+      "imo": null,
+      "call_sign": "DC7813",
+      "ship_type": "Cargo",
+      "class": "A",
+      "flag": "DE",
+      "length": 80,
+      "width": 8,
+      "ais_version": 0,
+      "created_at": "2017-08-11T19:31:04.065063+00:00",
+      "updated_at": "2018-09-04T15:31:19.134764+00:00",
+      "last_known_position": {
+        "timestamp": "2018-09-04T10:07:11+00:00",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.61167,
+            52.91667
+          ]
+        },
+        "heading": null,
+        "speed": 1,
+        "rot": null,
+        "accuracy": null,
+        "collection_type": "satellite",
+        "draught": null,
+        "maneuver": null,
+        "course": 165
+      },
+      "most_recent_voyage": {
+        "eta": null,
+        "destination": null
+      },
+      "general_classification": "Inland Waterways",
+      "individual_classification": "Unspecified",
+      "gross_tonnage": "0",
+      "lifeboats": null,
+      "person_capacity": 3,
+      "navigational_status": null
+    }
+  ]
+}
