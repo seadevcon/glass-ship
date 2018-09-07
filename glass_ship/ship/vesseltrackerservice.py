@@ -14,14 +14,15 @@ def get_all_ships():
         outfile.write(response.text)
 
 def store_vessels_in_database(session):
-    file = open("vessels.txt", 'r')
+    file = open("glass_ship/ship/vessels.txt", 'r')
     json = flask.json.load(file)
 
 #   def __init__(self, ship_id, name, mmsi, imo, ship_type, ship_class, flag, length, width, person_capacity):
     for vessel in json["data"]:
         vessel = Vessel(vessel["id"], vessel["name"], vessel["mmsi"], vessel["imo"], vessel["ship_type"],
-                               vessel["ship_type"], vessel["ship_class"], vessel["flag"], vessel["length"],
+                               vessel["class"], vessel["flag"], vessel["length"],
                                vessel["width"], vessel["person_capacity"])
         session.add(vessel)
-
+    
+    session.commit()
 
