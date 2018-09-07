@@ -9,7 +9,7 @@ app.debug = True
 init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
-
+vesseltrackerservice.store_vessels_in_database(session)
 
 @app.route('/ship', methods=['GET'])
 def get_ship():
