@@ -82,7 +82,7 @@ def store_distress():
            " {} at coordinates {} {}".format(data['name'],  data['ship_name'], now, 48.552570, -28.927061)
     msg = Message(subject="A friend is in a grave DANGER!",
                   sender=app.config.get("MAIL_USERNAME"),
-                  recipients=["aleksander.fagerjord@dualog.com"],
+                  recipients=["aleksander.fagerjord@dualog.com", "havard.snarby@dualog.com"],
                   body=body)
     mail.send(msg)
     return jsonify({"Message": "Saved distress call"})
