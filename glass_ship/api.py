@@ -7,6 +7,7 @@ from sqlalchemy.orm import sessionmaker, Query
 from glass_ship.storage import models
 from glass_ship.helpers import vessel_parsing_helper
 import datetime
+from flask_mail import Mail, Message
 
 app = Flask("glass-ship")
 CORS(app)
@@ -14,6 +15,18 @@ app.debug = True
 init_db()
 Session = sessionmaker(bind=engine)
 session = Session()
+
+mail_settings = {
+    "MAIL_SERVER": 'smtp.gmail.com',
+    "MAIL_PORT": 465,
+    "MAIL_USE_TLS": False,
+    "MAIL_USE_SSL": True,
+    "MAIL_USERNAME": "glasship.test@gmail.com",
+    "MAIL_PASSWORD": "human rights at the sea"
+}
+
+app.config.update(mail_settings)
+mail = Mail(app)
 
 
 @cross_origin()
@@ -57,13 +70,21 @@ def store_distress():
     :return: json response
     """
     data = request.get_json()
-    distress = Distress(timestamp=datetime.datetime.today(), user_name=data['name'], ship_name=data['ship_name'],
+    now = datetime.datetime.today()
+    distress = Distress(timestamp=now, user_name=data['name'], ship_name=data['ship_name'],
                         distress_type=data['distress_type'])
     if not session.query(Seafarer).filter(Seafarer.name == data['name']).first():
         return jsonify({"Message":"User is not logged in"}), 400
     
     session.add(distress)
-    session.commit()    
+    session.commit()
+    body = "Sailor {}  from ship {} activated alert function on" \
+           " {} at coordinates {} {}".format(data['name'],  data['ship_name'], now, 48.552570, -28.927061)
+    msg = Message(subject="A friend is in a grave DANGER!",
+                  sender=app.config.get("MAIL_USERNAME"),
+                  recipients=["aleksander.fagerjord@dualog.com"],
+                  body=body)
+    mail.send(msg)
     return jsonify({"Message": "Saved distress call"})
 
 
