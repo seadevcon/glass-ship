@@ -8,6 +8,7 @@ from glass_ship.storage import models
 from glass_ship.helpers import vessel_parsing_helper
 import datetime
 from flask_mail import Mail, Message
+from glass_ship.datahelper.datahelper import get_number_of_incidents_per_boat, get_number_reports_per_boat
 
 app = Flask("glass-ship")
 CORS(app)
@@ -60,7 +61,6 @@ def store_user():
     else:
         return jsonify({"Message": "User already exists"}), 400
     return jsonify({"Message": "Saved user!"}), 200
-
 
 @cross_origin()
 @app.route('/add_distress', methods=['POST'])
