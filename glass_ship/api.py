@@ -82,7 +82,9 @@ def save_rating():
                     water=int(data['water']),
                     bedding=int(data['bedding']),
                     health=int(data['health']),
-                    wage=int(data['wage']))
+                    wage=int(data['wage']),
+                    happiness=int(data['happiness']),
+                    overallrating=int(data['overall']))
     session.add(rating)
     session.commit()
     return jsonify({"Message": "Added new rating"})

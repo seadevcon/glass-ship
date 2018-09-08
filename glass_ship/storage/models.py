@@ -99,8 +99,10 @@ class Report(Base):
     bedding = Column(Integer)
     health = Column(Integer)
     wage = Column(Integer)
+    happiness = Column(Integer)
+    overallrating = Column(Integer)
 
-    def __init__(self, timestamp, device_id, user_name, ship_name, food, water, bedding, health, wage):
+    def __init__(self, timestamp, device_id, user_name, ship_name, food, water, bedding, health, wage, happiness, overallrating):
         self.timestamp = timestamp
         self.device_id = device_id
         self.user_name = user_name
@@ -110,3 +112,5 @@ class Report(Base):
         self.bedding = bedding
         self.health = health
         self.wage = wage
+        self.happiness = happiness
+        self.overallrating = overallrating
